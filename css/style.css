@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+* {
+  box-sizing: inherit;
+}
+
+form, table {
+	margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  background: #999966;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;'
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.query-table td, .query-table th {
+    border: 1px solid #adad85;
+    padding: 8px;
+}
+
+.query-table tr:nth-child(even){background-color: #c2c2a3;}
+
+.query-table tr:hover {background-color: #adad85;}
+
+.query-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #7a7a52;
+	text-transform: uppercase;
+    color: white;
+}
+
+/*
+.align {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;  
+}
+*/
+ul {
+	margin: 0;
+	padding: 0;
+}
+.list-item {
+  background: #f2f2f2;
+  box-shadow: 0 1px 2px #999;
+  list-style: none;
+  margin: 10px 0;
+  padding: 20px 10px;
+  text-align: center;
+  transform: translateZ(0);
+  transition: box-shadow 0.25s ease-in;
+  
+  &:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+}
+.content {
+  background: none;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.card {
+  background: #FFF;
+  border: 1px solid #7a7a52;
+  padding: 15px;
+}
+
+.header{
+	margin-bottom: 10px;
+}
+
+.side-bar{
+    width:25%;
+    float:left;
+	
+}
+
+.content-body{
+    width: calc(75% - 10px);
+    float:right;
+	margin-bottom: 10px;
+}
+
+/*Footer*/
+.footer{
+    clear:both;
+}
+/*** Table Styles **/
+input, select {
+  background: #f2f2f2;
+  width: 100%;
+  padding: 15px;
+  margin: 0 0 15px;
+  border: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type='submit'] {
+  margin: 0;
+}
+	
+
+input[type='submit'],
+input[type='button'] {
+  background-color: #7a7a52;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+input[type='submit']:focus,
+input[type='submit']:hover,
+input[type='button']:focus,
+input[type='button']:hover {
+  background-color: #6b6b47;
+}
+
+
+
+.btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
